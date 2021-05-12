@@ -48,7 +48,7 @@ collections:
       - { label: 'Hide Table of Contents', name: 'hide_table_of_contents', widget: 'boolean', default: false }
       - { label: 'Tags', name: 'tags', widget: 'list', default: [], required: false }
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: true }
-      - { label: 'Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', timeFormat: false }
+      - { label: 'Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', time_format: false }
       - { label: 'Description', name: 'description', required: false }
       - { label: 'Image', name: 'image', widget: 'image', allow_multiple: false, required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
