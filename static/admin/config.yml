@@ -1,5 +1,6 @@
 backend:
   name: git-gateway
+  repo: pjgoncalves/dev-portal
   branch: master # Branch to update (optional; defaults to master)
 media_folder: 'assets/uploads'
 collections:
